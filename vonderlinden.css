@@ -162,17 +162,8 @@
       justify-content: flex-end;
       padding: 0 4rem 5rem;
       position: relative;
+      overflow: hidden;
       background: var(--dark);
-    }
-
-    .hero-parallax-bg {
-      position: absolute;
-      inset: -30%;
-      background-image: url('57211866973__023FE52A-0BAE-4D2D-AE5B-844924E00B3B.jpg');
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      z-index: 0;
     }
 
     .hero-bg {

@@ -33,8 +33,116 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-parallax-bg"></div>
   <div class="hero-bg"></div>
+  <!-- SVG construction scene: sits in its own full-bleed container below nav -->
+  <div class="hero-svg-bg">
+    <svg xmlns="http://www.w3.org/2000/svg"
+         viewBox="0 0 1600 900"
+         preserveAspectRatio="xMidYMax meet"
+         class="hero-svg">
+      <!-- sky fill -->
+      <rect width="1600" height="900" fill="#0a1e2e"/>
+      <rect width="1600" height="460" fill="#0d2840"/>
+
+      <!-- all construction elements in natural coords (no group transform) -->
+      <g>
+
+      <!-- distant city silhouette -->
+      <rect x="0" y="300" width="90" height="380" fill="#112233"/>
+      <rect x="80" y="260" width="70" height="420" fill="#0e1f30"/>
+      <rect x="140" y="280" width="110" height="400" fill="#112233"/>
+      <rect x="240" y="310" width="60" height="370" fill="#0d1e2e"/>
+      <rect x="1340" y="270" width="100" height="410" fill="#0e1f30"/>
+      <rect x="1420" y="290" width="80" height="390" fill="#112233"/>
+      <rect x="1480" y="250" width="120" height="430" fill="#0d1e2e"/>
+      <!-- crane left -->
+      <rect x="180" y="60" width="14" height="520" fill="#204C76"/>
+      <rect x="60" y="60" width="135" height="12" fill="#204C76"/>
+      <rect x="182" y="60" width="220" height="10" fill="#4E91CF"/>
+      <line x1="194" y1="70" x2="280" y2="200" stroke="#264d6e" stroke-width="2.5"/>
+      <line x1="194" y1="70" x2="340" y2="200" stroke="#264d6e" stroke-width="2.5"/>
+      <!-- crane right -->
+      <rect x="1280" y="40" width="14" height="540" fill="#204C76"/>
+      <rect x="1160" y="40" width="135" height="12" fill="#204C76"/>
+      <rect x="1282" y="40" width="200" height="10" fill="#4E91CF"/>
+      <line x1="1294" y1="50" x2="1350" y2="180" stroke="#264d6e" stroke-width="2.5"/>
+      <line x1="1294" y1="50" x2="1400" y2="180" stroke="#264d6e" stroke-width="2.5"/>
+      <!-- main building frame -->
+      <rect x="380" y="220" width="840" height="680" fill="#0d2035"/>
+      <rect x="380" y="220" width="840" height="10" fill="#4E91CF"/>
+      <!-- floor lines -->
+      <rect x="380" y="300" width="840" height="5" fill="#163248"/>
+      <rect x="380" y="380" width="840" height="5" fill="#163248"/>
+      <rect x="380" y="460" width="840" height="5" fill="#163248"/>
+      <rect x="380" y="540" width="840" height="5" fill="#163248"/>
+      <rect x="380" y="620" width="840" height="5" fill="#163248"/>
+      <rect x="380" y="700" width="840" height="5" fill="#163248"/>
+      <!-- vertical scaffold columns -->
+      <rect x="380" y="220" width="10" height="680" fill="#264d6e"/>
+      <rect x="1210" y="220" width="10" height="680" fill="#264d6e"/>
+      <rect x="500" y="220" width="8" height="680" fill="#1a3a55" opacity="0.7"/>
+      <rect x="620" y="220" width="8" height="680" fill="#1a3a55" opacity="0.7"/>
+      <rect x="740" y="220" width="8" height="680" fill="#1a3a55" opacity="0.7"/>
+      <rect x="860" y="220" width="8" height="680" fill="#1a3a55" opacity="0.7"/>
+      <rect x="980" y="220" width="8" height="680" fill="#1a3a55" opacity="0.7"/>
+      <rect x="1100" y="220" width="8" height="680" fill="#1a3a55" opacity="0.7"/>
+      <!-- window grids row 1 -->
+      <rect x="400" y="235" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.35"/>
+      <rect x="510" y="235" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.2"/>
+      <rect x="620" y="235" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.45"/>
+      <rect x="730" y="235" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.15"/>
+      <rect x="840" y="235" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.4"/>
+      <rect x="950" y="235" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.25"/>
+      <rect x="1060" y="235" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.5"/>
+      <rect x="1110" y="235" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.3"/>
+      <!-- window grids row 2 -->
+      <rect x="400" y="315" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.2"/>
+      <rect x="510" y="315" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.4"/>
+      <rect x="620" y="315" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.1"/>
+      <rect x="730" y="315" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.35"/>
+      <rect x="840" y="315" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.5"/>
+      <rect x="950" y="315" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.15"/>
+      <rect x="1060" y="315" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.3"/>
+      <!-- window grids row 3 -->
+      <rect x="400" y="395" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.4"/>
+      <rect x="510" y="395" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.15"/>
+      <rect x="620" y="395" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.35"/>
+      <rect x="730" y="395" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.5"/>
+      <rect x="840" y="395" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.2"/>
+      <rect x="950" y="395" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.45"/>
+      <rect x="1060" y="395" width="80" height="50" rx="1" fill="#4E91CF" opacity="0.1"/>
+      <!-- ground -->
+      <rect x="0" y="860" width="1600" height="40" fill="#081520"/>
+      <rect x="0" y="848" width="1600" height="16" fill="#0d2035"/>
+      <!-- machinery left -->
+      <rect x="100" y="800" width="160" height="55" rx="4" fill="#204C76"/>
+      <rect x="120" y="772" width="120" height="30" rx="3" fill="#1a3a55"/>
+      <circle cx="130" cy="858" r="18" fill="#0d2035" stroke="#4E91CF" stroke-width="3"/>
+      <circle cx="230" cy="858" r="18" fill="#0d2035" stroke="#4E91CF" stroke-width="3"/>
+      <!-- machinery right -->
+      <rect x="1340" y="808" width="160" height="50" rx="4" fill="#204C76"/>
+      <rect x="1360" y="782" width="120" height="28" rx="3" fill="#1a3a55"/>
+      <circle cx="1365" cy="860" r="16" fill="#0d2035" stroke="#4E91CF" stroke-width="3"/>
+      <circle cx="1465" cy="860" r="16" fill="#0d2035" stroke="#4E91CF" stroke-width="3"/>
+      <!-- ground accent line -->
+      <rect x="0" y="846" width="1600" height="4" fill="#4E91CF" opacity="0.2"/>
+      <!-- tiny rooftop crane -->
+      <rect x="796" y="130" width="8" height="92" fill="#204C76"/>
+      <rect x="726" y="130" width="72" height="6" fill="#204C76"/>
+      <rect x="804" y="130" width="130" height="6" fill="#4E91CF"/>
+      <rect x="790" y="124" width="20" height="10" rx="1" fill="#4E91CF"/>
+      <line x1="800" y1="136" x2="730" y2="185" stroke="#1a3a55" stroke-width="1.5"/>
+      <line x1="800" y1="136" x2="770" y2="185" stroke="#1a3a55" stroke-width="1.2"/>
+      <line x1="800" y1="136" x2="870" y2="185" stroke="#1a3a55" stroke-width="1.5"/>
+      <line x1="800" y1="136" x2="920" y2="185" stroke="#1a3a55" stroke-width="1.2"/>
+      <line x1="900" y1="136" x2="900" y2="195" stroke="#264d6e" stroke-width="1.2"/>
+      <rect x="895" y="193" width="10" height="6" rx="1" fill="#4E91CF" opacity="0.8"/>
+      <rect x="722" y="136" width="22" height="14" rx="1" fill="#163248"/>
+      <rect x="786" y="218" width="28" height="6" rx="1" fill="#4E91CF" opacity="0.6"/>
+
+      </g>
+</svg>
+  </div>
   <p class="hero-tag">Philadelphia, PA</p>
   <h1>Construction<br /><em>Without Compromise.</em></h1>
   <p class="hero-sub">A fully licensed &amp; insured General Contractor serving Pennsylvania &amp; states across the US — from ground-up buildouts to individual trade installs and repairs.</p>
@@ -257,7 +365,7 @@
       ============================================================ -->
 
       <div class="portfolio-item" data-cat="industrial" data-title="Industrial Project 1" data-sub="Industrial" onclick="openLightbox(0)">
-        <img src="57211866973__023FE52A-0BAE-4D2D-AE5B-844924E00B3B.JPG" alt="Industrial Project 1" loading="lazy" />
+        <img src="57211866973__023FE52A-0BAE-4D2D-AE5B-844924E00B3B.jpg" alt="Industrial Project 1" loading="lazy" />
         <div class="p-overlay"><h4>Industrial Project 1</h4><span>Industrial</span></div>
         <div class="zoom-icon">&#x2922;</div>
         <span class="p-watermark">VonderLinden Group</span>
@@ -327,7 +435,7 @@
       </div>
 
       <div class="portfolio-item" data-cat="industrial" data-title="Industrial Project 11" data-sub="Industrial" onclick="openLightbox(0)">
-        <img src="IMG_4864.JPG" alt="Industrial Project 11" loading="lazy" />
+        <img src="IMG_4864.jpg" alt="Industrial Project 11" loading="lazy" />
         <div class="p-overlay"><h4>Industrial Project 11</h4><span>Industrial</span></div>
         <div class="zoom-icon">&#x2922;</div>
         <span class="p-watermark">VonderLinden Group</span>
